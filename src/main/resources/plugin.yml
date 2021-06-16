@@ -1,0 +1,11 @@
+name: Fatality
+version: ${project.version}
+description: Fatality is a lightweight plugin that offers audio-visual effects for players when killing entities.
+api-version: 1.16
+authors: [lmorgh, cirano]
+main: nomblox.fatality.FatalityPlugin
+commands:
+  fatalitymenu:
+    description: Menu
+    usage: /fmenu
+    aliases: [fmenu, fm]
